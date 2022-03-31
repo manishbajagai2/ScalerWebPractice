@@ -1,0 +1,15 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li li {
+    height: 0;
+    visibility: hidden;
+}
+li:hover > * > li {
+    height: auto;
+    visibility:visible;
+}
